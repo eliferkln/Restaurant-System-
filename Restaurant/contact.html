@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>REZERVASYON YAP | Fırat Üniversitesi</title>
+
+    <link
+      href="//fonts.googleapis.com/css2?family=Prompt:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css" />
+  </head>
+
+  <body>
+    <!-- top header -->
+    <section class="w3l-top-header">
+      <div class="container">
+        <div class="top-header-2">
+          <div class="d-grid main-top">
+            <div class="top-headers">
+              <ul class="left-info">
+                <li>
+                  <span class="fa fa-phone"></span
+                  ><a href="tel:+90(424) 237 0000">+90(424) 237 0000</a>
+                </li>
+                <li class="">
+                  <a href="#help" class="d-md-block d-none">Yardım </a>
+                </li>
+                <li class="">
+                  <a
+                    href="https://www.google.com/maps/search/fırat+üniversitesi+yemekhane/@38.6784909,39.1971146,17z/data=!3m1!4b1"
+                    class="d-md-block d-none"
+                    >Konum</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="top-headers">
+              <ul>
+                <li>
+                  <a href="#twitter"><span class="fa fa-twitter"></span></a>
+                </li>
+                <li>
+                  <a href="#instagram"><span class="fa fa-instagram"></span></a>
+                </li>
+                <li class="mr-0">
+                  <a href="#linkedin"><span class="fa fa-linkedin"></span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //top header -->
+    <header id="site-header" class="fixed-top">
+      <section class="w3l-header-4">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="logo-image">
+              <img
+                src="assets/images/Fırat_Üniversitesi_logo.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <h6>
+              <a class="navbar-brand" href="index.html">
+                <span></span> FIRAT ÜNİVERSİTE EVİ
+              </a>
+            </h6>
+            <button
+              class="navbar-toggler collapsed"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="fa icon-expand fa-bars"></span>
+              <span class="fa icon-close fa-times"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">AnaSayfa </a>
+                </li>
+                <li class="nav-item @@about__active">
+                  <a
+                    class="nav-link"
+                    a
+                    href="http://sks.db.firat.edu.tr/tr/node/419"
+                    >Yönetim</a
+                  >
+                </li>
+                <li class="nav-item @@services__active">
+                  <a class="nav-link" href="services.html">Personel</a>
+                </li>
+                <li class="nav-item @@contact__active">
+                  <a class="nav-link" href="http://sks.db.firat.edu.tr/tr"
+                    >S.K.S Daire Başkanlığı</a
+                  >
+                </li>
+              </ul>
+              <ul class="navbar-nav search-right mt-lg-0 mt-2">
+                <li class="nav-item mr-2" title="Search">
+                  <a href="#search" class="btn search-search">
+                    <span class="fa fa-search" aria-hidden="true"></span
+                  ></a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="contact.html"
+                    class="btn btn-primary d-none d-lg-block btn-style mr-3"
+                    >Rezervasyon
+                  </a>
+                </li>
+              </ul>
+              <!-- //toggle switch for light and dark theme -->
+              <!-- search popup -->
+              <div id="search" class="pop-overlay">
+                <div class="popup">
+                  <form action="error.html" method="GET" class="d-flex">
+                    <input
+                      type="search"
+                      placeholder="Search.."
+                      name="search"
+                      required="required"
+                      autofocus
+                    />
+                    <button type="submit">
+                      <span class="fa fa-search"></span>
+                    </button>
+                    <a class="close" href="#close">&times;</a>
+                  </form>
+                </div>
+              </div>
+              <!-- /search popup -->
+            </div>
+            <!-- toggle switch for light and dark theme -->
+            <div class="mobile-position">
+              <nav class="navigation">
+                <div class="theme-switch-wrapper">
+                  <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="mode-container">
+                      <i class="gg-sun"></i>
+                      <i class="gg-moon"></i>
+                    </div>
+                  </label>
+                </div>
+              </nav>
+            </div>
+          </nav>
+        </div>
+      </section>
+    </header>
+
+    <!-- contact -->
+    <section class="w3l-contacts-12" id="contact">
+      <div class="contact-top pt-5">
+        <div class="container py-lg-4">
+          <div class="title-heading-w3 text-center mx-auto">
+            <h3 class="title-big">REZERVASYON</h3>
+          </div>
+          <div class="d-grid cont-main-top mt-lg-5 mt-4">
+            <!-- contact form -->
+            <div class="contacts12-main">
+              <form
+                action="http://localhost:3000/reservation"
+                method="post"
+                class="main-input"
+              >
+                <div class="top-inputs d-grid">
+                  <input
+                    type="text"
+                    placeholder="AD"
+                    name="firstName"
+                    id="student_first_name"
+                  />
+                  <input
+                    type="text"
+                    placeholder="SOYAD"
+                    name="lastName"
+                    id="student_last_name"
+                    required
+                  />
+                  <input
+                    type="number"
+                    name="schoolId"
+                    placeholder="OKUL NUMARASI"
+                    id="customer_number"
+                    required
+                  />
+                  <input
+                    type="number"
+                    name="tableNo"
+                    placeholder="MASA NUMARASI"
+                    id="customer_table_no"
+                    required
+                  />
+                  <center><p id="output"></p></center>
+                </div>
+                <div class="text-right">
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-style"
+                    onclick="sendStudentInfosToDb() ;showInfo();refresh();"
+                  >
+                    REZERVASYON YAP
+                  </button>
+                  <!-- <button
+                    type="button"
+                    class="btn btn-success btn-style"
+                    onclick="getReservationDatas()"
+                  >
+                    REZERVASYONUMU GÖSTER
+                  </button> -->
+                </div>
+              </form>
+            </div>
+            <!-- //contact form -->
+            <!-- contact address -->
+            <div class="contact">
+              <div class="cont-subs">
+                <div class="cont-add">
+                  <h4>Konum:</h4>
+                  <p class="contact-text-sub">
+                    Üniversite, 23200 Elâzığ Merkez/Elazığ
+                  </p>
+                </div>
+
+                <div class="cont-add">
+                  <h4>Telefon Numarası:</h4>
+                  <a href="tel:+90(424) 237 0000">
+                    <p class="contact-text-sub">+90(424) 237 0000</p>
+                  </a>
+                </div>
+                <div class="social-icons-con">
+                  <h4 class="mb-3">Sosyal Ağ:</h4>
+
+                  <a href="https://twitter.com/firatresmihesap"
+                    ><span
+                      class="fa fa-twitter-square"
+                      aria-hidden="true"
+                    ></span
+                  ></a>
+                  <a href="#instagram"
+                    ><span class="fa fa-instagram" aria-hidden="true"></span
+                  ></a>
+                  <a href="https://www.linkedin.com/school/firat-university/"
+                    ><span
+                      class="fa fa-linkedin-square"
+                      aria-hidden="true"
+                    ></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!-- //contact address -->
+          </div>
+        </div>
+        <!-- map -->
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3114.6798571826257!2d39.19446231530273!3d38.679224979604825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4076c0445ee15ce7%3A0xd1dfbd49e81567d6!2sF%C4%B1rat%20%C3%9Cniversitesi%20%C3%9Cniversite%20Evi!5e0!3m2!1str!2str!4v1637255086992!5m2!1str!2str"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <!-- //map -->
+      </div>
+    </section>
+    <!-- //contact -->
+    <!-- footer -->
+    <section class="w3l-footer-29-main">
+      <div class="footer-29 py-5">
+        <div class="container py-lg-4">
+          <div class="row footer-top-29">
+            <div
+              class="col-lg-4 col-md-6 col-sm-7 footer-list-29 footer-1 pr-lg-5"
+            >
+              <div class="footer-logo mb-4">
+                <a class="navbar-brand" href="index.html">
+                  <span class="fa fa-clone"></span> FIRAT ÜNİVERSİTE EVİ</a
+                >
+              </div>
+
+              <div class="main-social-footer-29 mt-4">
+                <a href="#twitter" class="twitter"
+                  ><span class="fa fa-twitter"></span
+                ></a>
+                <a href="#instagram" class="instagram"
+                  ><span class="fa fa-instagram"></span
+                ></a>
+                <a href="#linkedin" class="linkedin"
+                  ><span class="fa fa-linkedin"></span
+                ></a>
+              </div>
+            </div>
+            <div
+              class="
+                col-lg-2 col-md-6 col-sm-5 col-6
+                footer-list-29 footer-2
+                mt-sm-0 mt-5
+              "
+            >
+              <ul>
+                <h6 class="footer-title-29">Yönetim</h6>
+                <li>
+                  <a
+                    href="http://www.firat.edu.tr/tr/administration?appellation_id=2"
+                    >Rektör Yardımcıları</a
+                  >
+                </li>
+
+                <li>
+                  <a
+                    href="http://www.firat.edu.tr/tr/administration?appellation_id=3"
+                    >Genel Sekreter</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://www.firat.edu.tr/tr/administration?appellation_id=4"
+                    >Yönetim Kurulu</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://www.firat.edu.tr/tr/administration?appellation_id=5"
+                    >Senato</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-lg-2 col-md-6 col-sm-5 col-6
+                footer-list-29 footer-3
+                mt-lg-0 mt-5
+              "
+            >
+              <h6 class="footer-title-29">Kampüste Yaşam</h6>
+              <ul>
+                <li>
+                  <a href="http://sks.db.firat.edu.tr/tr/node/419"
+                    >Sosyal Merkez</a
+                  >
+                </li>
+                <li>
+                  <a href="http://sosyaltesisler.firat.edu.tr/">Sosyal Yaşam</a>
+                </li>
+                <li>
+                  <a
+                    href="http://www.firat.edu.tr/tr/page/menu/ulasim-servisler-4065"
+                    >Ulaşım Barınma</a
+                  >
+                </li>
+                <li>
+                  <a href="http://sks.db.firat.edu.tr/tr/node/84"
+                    >Spor Tesisleri</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="http://www.firat.edu.tr/tr/page/menu/konferans-salonlari-4064"
+                    >Konferans Salonları</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div
+              class="
+                col-lg-4 col-md-6 col-sm-7
+                footer-list-29 footer-4
+                mt-lg-0 mt-5
+              "
+            >
+              <h6 class="footer-title-29">Hizmetler</h6>
+
+              <p class="mt-2">
+                <a href="https://abs.firat.edu.tr/"
+                  >Akademik Personel Bilgi Sistemi</a
+                >
+              </p>
+              <p class="mt-2">
+                <a href="https://bap.firat.edu.tr/index.php"
+                  >Fübap Otomasyonu</a
+                >
+              </p>
+              <p class="mt-2">
+                <a href="https://konut.firat.edu.tr/">Konut Otomasyonu</a>
+              </p>
+              <p class="mt-2">
+                <a href="http://www.firat.edu.tr/tr/phone_book"
+                  >Telefon Rehberi</a
+                >
+              </p>
+              <p class="mt-2">
+                <a href="http://donersermy.firat.edu.tr/satinalma.aspx"
+                  >İhale Satın Alma Sistemi</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+      <section class="w3l-copyright text-center">
+        <div class="container">
+          <p class="copy-footer-29">
+            Fırat Universitesi Bilgi İşlem Daire Başkanlığı © 2014
+          </p>
+        </div>
+
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+          &#10548;
+        </button>
+        <script>
+          // When the user scrolls down 20px from the top of the document, show the button
+          window.onscroll = function () {
+            scrollFunction();
+          };
+
+          function scrollFunction() {
+            if (
+              document.body.scrollTop > 20 ||
+              document.documentElement.scrollTop > 20
+            ) {
+              document.getElementById("movetop").style.display = "block";
+            } else {
+              document.getElementById("movetop").style.display = "none";
+            }
+          }
+
+          // When the user clicks on the button, scroll to the top of the document
+          function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+          }
+        </script>
+        <!-- /move top -->
+      </section>
+      <!-- //copyright -->
+    </section>
+    <!-- //footer -->
+
+    <!--  javascripts file here -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+    <script src="assets/js/theme-change.js"></script>
+    <!-- //light and dark mode switch js -->
+
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
+    <!-- faq -->
+    <script>
+      const items = document.querySelectorAll(".accordion button");
+
+      function toggleAccordion() {
+        const itemToggle = this.getAttribute("aria-expanded");
+
+        for (i = 0; i < items.length; i++) {
+          items[i].setAttribute("aria-expanded", "false");
+        }
+
+        if (itemToggle == "false") {
+          this.setAttribute("aria-expanded", "true");
+        }
+      }
+
+      items.forEach((item) => item.addEventListener("click", toggleAccordion));
+    </script>
+    <!-- //faq -->
+
+    <script src="assets/js/easyResponsiveTabs.js"></script>
+    <!--Plug-in Initialisation-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        //Horizontal Tab
+        $("#parentHorizontalTab").easyResponsiveTabs({
+          type: "default", //Types: default, vertical, accordion
+          width: "auto", //auto or any width like 600px
+          fit: true, // 100% fit in a container
+          tabidentify: "hor_1", // The tab groups identifier
+          activate: function (event) {
+            // Callback function if tab is switched
+            var $tab = $(this);
+            var $info = $("#nested-tabInfo");
+            var $name = $("span", $info);
+            $name.text($tab.text());
+            $info.show();
+          },
+        });
+      });
+    </script>
+
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <!-- script for banner slider-->
+    <script>
+      $(document).ready(function () {
+        $(".owl-one").owlCarousel({
+          loop: true,
+          margin: 0,
+          nav: false,
+          responsiveClass: true,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          autoplaySpeed: 1000,
+          autoplayHoverPause: false,
+          responsive: {
+            0: {
+              items: 1,
+            },
+            480: {
+              items: 1,
+            },
+            667: {
+              items: 1,
+            },
+            1000: {
+              items: 1,
+            },
+          },
+        });
+      });
+    </script>
+    <!-- //script -->
+    <!-- owl carousel -->
+
+    <!-- script for customers -->
+    <script>
+      $(document).ready(function () {
+        $(".owl-three").owlCarousel({
+          loop: true,
+          margin: 0,
+          nav: false,
+          dots: false,
+          responsiveClass: true,
+          autoplay: true,
+          autoplayTimeout: 5000,
+          autoplaySpeed: 1000,
+          autoplayHoverPause: false,
+          responsive: {
+            0: {
+              items: 3,
+              nav: true,
+            },
+            480: {
+              items: 3,
+              nav: true,
+            },
+            667: {
+              items: 3,
+              nav: true,
+            },
+            800: {
+              items: 4,
+              nav: true,
+            },
+            1000: {
+              items: 5,
+              nav: true,
+            },
+          },
+        });
+      });
+    </script>
+    <!-- //customers owlcarousel -->
+
+    <!-- disable body scroll which navbar is in active -->
+    <!-- <script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script> -->
+    <!-- disable body scroll which navbar is in active -->
+
+    <!--/MENU-JS-->
+    <script>
+      $(window).on("scroll", function () {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+          $("#site-header").addClass("nav-fixed");
+        } else {
+          $("#site-header").removeClass("nav-fixed");
+        }
+      });
+
+      //Main navigation Active Class Add Remove
+      $(".navbar-toggler").on("click", function () {
+        $("header").toggleClass("active");
+      });
+      $(document).on("ready", function () {
+        if ($(window).width() > 991) {
+          $("header").removeClass("active");
+        }
+        $(window).on("resize", function () {
+          if ($(window).width() > 991) {
+            $("header").removeClass("active");
+          }
+        });
+      });
+    </script>
+    <!--//MENU-JS-->
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap js -->
+    <script src="expressMongoDb.js" ;></script>
+  </body>
+</html>
